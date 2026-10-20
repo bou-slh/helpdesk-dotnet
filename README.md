@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/bou-slh/BTicketing-System/actions/workflows/ci.yml"><img src="https://github.com/bou-slh/BTicketing-System/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/bou-slh/helpdesk-dotnet/actions/workflows/ci.yml"><img src="https://github.com/bou-slh/helpdesk-dotnet/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <img src="https://img.shields.io/badge/.NET-10-512BD4" alt=".NET 10">
   <img src="https://img.shields.io/badge/PostgreSQL-17-336791" alt="PostgreSQL 17">
   <img src="https://img.shields.io/badge/tests-406%20unit%20%2B%208%20E2E-2ea44f" alt="406 unit and integration tests plus 8 end-to-end tests">
@@ -123,8 +123,8 @@ You need **Docker**. For development without Docker for the app itself, you also
 **Everything in Docker:**
 
 ```bash
-git clone https://github.com/bou-slh/BTicketing-System.git
-cd BTicketing-System
+git clone https://github.com/bou-slh/helpdesk-dotnet.git
+cd helpdesk-dotnet
 docker compose up --build
 ```
 
