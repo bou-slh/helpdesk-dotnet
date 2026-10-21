@@ -51,3 +51,10 @@ mockups/                           the binding spec (do not edit without S0-styl
 - Every mutation writes an AuditEvent (EF interceptor). Status enum and seed data must match the canon
   table in `mockups/ROADMAP.md` §2.
 - Effort approval (Efor Onayı) is the flagship flow — state machine `none→pending→approved|rejected→(revise→pending)`.
+
+## AI triage (extension in progress)
+
+- AI-assisted triage is built as a switchable module inside this solution. The spec, v1 scope, conventions
+  and build order (slices T0–T7) live in **`docs/ai-triage/ANALYSIS.md`** — read it before any triage work.
+- v1 rule: the AI never changes a ticket or contacts a customer on its own; an agent action is always the trigger.
+- Work one slice at a time, plan before code, `/verify` before every commit.
